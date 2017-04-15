@@ -1,0 +1,6 @@
+-c --cpu Cortex-M4.fp -D__MICROLIB -O3 --apcs=interwork --split_sections -I ../ -I ../../../Libraries/CMSIS/Device/ST/STM32F4xx/Include -I ../../../Libraries/STM32F4xx_StdPeriph_Driver/inc -I ../../../Utilities/STM32_EVAL/Common -I ../../../Utilities/STM32_EVAL/STM3240_41_G_EVAL -I ../../../MinOS/Source -I ../APP --C99
+-I"D:\WorkSpace STM32F4\Project\Project Template With MinOS_Pro0\MDK-ARM\RTE\_STM32F40_41xxx"
+-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include
+-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+-D__UVISION_VERSION="522" -D_RTE_ -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F40_41xxx --C99
+-o stm32f40_41xxx\stm32f4xx_iwdg.o --omf_browse stm32f40_41xxx\stm32f4xx_iwdg.crf --depend stm32f40_41xxx\stm32f4xx_iwdg.d "../../../Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_iwdg.c"
